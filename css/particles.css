@@ -1,0 +1,15 @@
+#particles-container {
+  background-color: #000106;
+  background-image: radial-gradient(rgba(30, 4, 46, 0.747), rgb(8, 8, 8));
+  width: 100%;
+  height: 90vh; /*applying as layer to HOMEsection. So HomeHeight and LayerHeight must be same*/
+
+  position: absolute;
+  left: 0;
+  top: 10vh;
+  z-index: 2;
+}
+.home {
+  background: none; /*removing default background to apply new Particles effect*/
+  height: 90vh;
+}
