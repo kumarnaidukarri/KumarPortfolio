@@ -313,6 +313,7 @@ section {
   grid-template-columns: repeat(4, 1fr);
   gap: 5rem;
   margin-top: 8rem;
+  padding: 10px;
 }
 .each-container {
   max-width: 200px;
