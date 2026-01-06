@@ -59,8 +59,7 @@ body {
 }
 .heading-primary:hover,
 .heading-secondary:hover,
-.heading-tertiary:hover,
-.btn-resume:hover {
+.heading-tertiary:hover {
   transform: skewX(-20deg);
 }
 
