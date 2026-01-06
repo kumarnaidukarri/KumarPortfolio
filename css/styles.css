@@ -392,8 +392,11 @@ section {
 .form {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
   width: 100%;
-  margin-top: 5.5rem;
+  margin-top: 4rem;
 }
 .form input {
   height: 50px;
@@ -436,9 +439,14 @@ section {
   transition: all 0.3s ease;
 }
 .form-btn:hover {
-  box-shadow: 0 0 0.5rem var(--primary-green-variation);
+  /* box-shadow: 0 0 0.5rem var(--primary-green-variation); */
   font-size: 2rem;
-  //transform: scale(1.2);
+  /* transform: scale(1.2); */
+
+  color: #222;
+  background: var(--primary-color);
+  border: 2px solid var(rgb(102, 159, 18));
+  box-shadow: 0 0 0.5rem rgb(132, 0, 255);
 }
 
 /* /////////////////// */
@@ -459,4 +467,8 @@ section {
 .footer-icon {
   font-size: 4rem;
   color: rgb(102, 159, 18);
+  transition: all 0.3s ease;
+}
+.footer-icon:hover {
+  color: var(--primary-color);
 }
